@@ -18,3 +18,9 @@ else:original_enc=a;z='final.py';print("Done!")
 
 with open(z,'w') as f:
     f.write(original_enc)
+
+
+## write to pyc file
+# import importlib, sys
+# pyc_data = importlib._bootstrap_external._code_to_timestamp_pyc(<code-object-here>)    
+# open('file.pyc','wb').write(pyc_data)
